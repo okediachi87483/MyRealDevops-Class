@@ -2,8 +2,8 @@
 - hosts: "{{ host }}"
   gather_facts: true
   vars:
-    access_key: AKIAQJBMEFMZ35YYA2FK
-    secret_key: 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
+    access_key: xx
+    secret_key: xx
   tasks:
     - name: Provision instance
       amazon.aws.ec2_instance:
